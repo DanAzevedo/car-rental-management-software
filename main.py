@@ -64,7 +64,7 @@ while True:
             show_car_list(rent)
             print("\n")
             cod = int(input("Digite o código de qual deseja devolver:"))
-            if conf == 0:
+            if cod == 0:
                 print("Obrigado por devolver o carro {}".format(rent[cod][0]))
                 cars.append(rent.pop(cod))
     # =============================================================================================================
